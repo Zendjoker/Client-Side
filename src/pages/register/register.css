@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Open+Sans:wght@700;800&family=Poppins:wght@300&family=Roboto&display=swap');
+
+
+
+
+
+
+.top-esential{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.logo-instagram-top{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-register-top{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #8E8E8E;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 61px;
+}
+.button-connect-with-facebook{
+    width : 230px;
+    height: 30px;
+    max-width: 230px;
+    max-height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.facebook-svg{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+.form-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-register{
+    margin: 4px;
+}
+
+.labellogin{
+    width: 217px;
+    height: 22px;
+    /* max-width: 210px; */
+    /* max-height: 20px; */
+    padding: 5px 7px;
+    border: 1px solid rgba(85, 85, 85, 0.274);
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FAFAFA;
+    color: rgba(106, 113, 119, 0.514);
+    font-size: 11px;
+}
+.forum-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 37vh;
+    height: 68vh;
+    border: 1px solid #E6E6E6;
+}
+
+.text-under-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-explain{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 240px;
+    color: #8E8E8E;
+    font-weight: 100;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.button-register{
+    color: white;
+    font-weight: bold;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 248px;
+    height: 26px;
+    max-width: 248px;
+    margin-top: 6px;
+    max-height: 30px;
+}
+
+.noaccount{
+    font-size: 11px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(85, 85, 85, 0.275);
+    border-radius: 3px;
+    height: 7vh;
+    width: 36.85vh;
+    margin: 56px 0px 19px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insc{
+    color: #2a98b9;
+    font-weight: 550;
+}
+
+.downloadapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.store {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+.app{
+    height: 40px;
+    padding: 7px;
+}
+.storeimg{
+    height: 40px;
+    
+}
+
+/* FOOTER INSTAGRAM */
+.footer-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-text{
+    color: gray;
+    padding: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.under-text-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.links{
+    text-decoration: none;
+    margin-left: 4px;
+  }

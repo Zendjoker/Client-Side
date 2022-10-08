@@ -1,0 +1,22 @@
+.home-container{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.home-wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.home{
+    display: flex;
+    /* margin: 0 auto; */
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+}
+.sidebar-home{
+    padding: 30px 15px 0px 20px;
+}

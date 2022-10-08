@@ -1,0 +1,83 @@
+.navbarcontainer {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+    margin: 0;
+    padding: 0;
+    
+}
+.instagram-logo {
+    padding: 0px 0px 0px;
+}
+
+.flex-navbar-align{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.v{
+    padding: 0px 8px
+}
+.right-side-navbar{   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 11%;
+}
+.searchbar-insta-navbar{
+    position: relative;
+    padding-right: 60px;
+
+}
+._ab6-navbar{
+    position: absolute;
+    padding: 0px 7px;
+    top: 25%;
+    left: 0;
+    z-index: 1;
+}
+.search-navbar{
+    width: 208px;
+    height: 25px;
+    border: 36px;
+    border-radius: 7px;
+    background-color: #EFEFEF;
+    padding: 6px 17px 6px 39px;
+    color: #999;
+    font-size: 14px;
+    outline: none;
+}
+
+.icons-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.t{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dropdown-image-profile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+._ab6-{
+    padding-right: 10px;
+}
+
+.create-post{
+    background: none;
+    border: none;
+    cursor: pointer;
+}

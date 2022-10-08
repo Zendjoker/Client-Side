@@ -1,0 +1,144 @@
+.top-profile-component{
+    max-width: 935px;
+    margin: 0 auto 30px;
+    flex-grow: 1;
+}
+.right-top-side-profil-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.profile-picture-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.to-align-svg-to-button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.top-profile-description-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: left;
+
+}
+.one-top{
+    display: flex;
+    flex-direction: row;
+    
+}
+.one-top .svg-icon-right-profile{
+    display: flex;
+    
+}
+
+.username-profile{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #262626;
+    padding-right: 16px;
+
+}
+.change-profile{
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #262626;
+    background-color: transparent;
+    padding-right: 10px;
+}
+.svg-icon-right-profile{
+    padding-left: 10px;
+}
+.interaction-followers{
+    display: flex;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+}
+.interaction{
+    padding: 0px;
+}
+.number-interaction{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.text-interaction{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.description-bio-user{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.username-profile-bio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.description-bio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.souvenirs-story{
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 54px;
+    padding-left: 70px;
+    width: 400px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+.reels-souvenirs-story-save{
+    
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+.name-of-saved-story{
+    color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-top: 10px;
+}
+.story-selector{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 1px solid #DBDBDB;
+}
+
+.add-icon-svg{
+    border: 1px solid #DBDBDB;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 17px 17px;
+    display: flex;
+}
